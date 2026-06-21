@@ -184,3 +184,47 @@ footer{
         width: 90%;
     }
 }
+.about-hero{
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.about-hero h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.about-hero p{
+    font-size: 18px;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.about-content .card{
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.about-content .card:hover{
+    transform: translateY(-8px);
+}
+
+footer{
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
