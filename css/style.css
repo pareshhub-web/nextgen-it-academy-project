@@ -763,3 +763,53 @@ footer{
     margin-bottom: 40px;
     font-size: 35px;
 }
+/* Testimonials Hero */
+.testimonial-hero{
+    background: linear-gradient(to right,#0d6efd,#00bfff);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.testimonial-hero h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.testimonial-hero p{
+    font-size: 20px;
+}
+
+/* Testimonials Page */
+.testimonials-page{
+    padding: 80px 10%;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.testimonials-page .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+}
+
+.testimonials-page .card{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.testimonials-page .card:hover{
+    transform: translateY(-8px);
+}
+
+.testimonials-page p{
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.testimonials-page h3{
+    color: #0d6efd;
+}
