@@ -871,3 +871,37 @@ footer{
     font-size: 35px;
     margin-bottom: 40px;
 }
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 200px;
+    list-style: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu li{
+    padding: 8px 15px;
+}
+
+.dropdown-menu li a{
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu li a:hover{
+    color: #0d6efd;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
