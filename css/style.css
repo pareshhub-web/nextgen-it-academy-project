@@ -734,3 +734,32 @@ footer{
         grid-template-columns: 1fr;
     }
 }
+/* Admission Hero */
+.admission-hero{
+    background: linear-gradient(to right,#0d6efd,#00bfff);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.admission-hero h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.admission-hero p{
+    font-size: 20px;
+}
+
+/* Admission Section */
+.admission{
+    padding: 80px 10%;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.admission h2{
+    color: #0d6efd;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
